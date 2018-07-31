@@ -1,13 +1,13 @@
 {
   "name": "@bigear/microphone-recorder",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "It is a lib for sound recording on HTML, implemented by audioContext and webWorker",
   "main": "dist/main.js",
   "scripts": {
     "test": "no test for recorder",
     "build": "webpack --config webpack.config.js"
   },
-  "author": "",
+  "author": "wahengchang",
   "license": "ISC",
   "dependencies": {
     "inline-worker": "^1.1.0"
@@ -16,5 +16,23 @@
     "webpack": "^4.16.3",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-command": "^0.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/bigear.git"
+  },
+  "keywords": [
+    "audio",
+    "microphone",
+    "sound",
+    "recording",
+    "audiocontext",
+    "javascript",
+    "media",
+    "source"
+  ],
+  "bugs": {
+    "url": "https://github.com/wahengchang/bigear/issues"
+  },
+  "homepage": "https://github.com/wahengchang/bigear#readme"
 }
