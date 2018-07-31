@@ -2,8 +2,8 @@
 
 >  It is a lib for sound recording on HTML, implemented by audioContext and webWorker
 
-[npm-img]: https://img.shields.io/npm/v/@bigear/microphone-recorder.svg
-[npm-url]: https://www.npmjs.com/package/@bigear/microphone-recorder
+![npm-img](https://img.shields.io/npm/v/@bigear/microphone-recorder.svg)
+![npm-url](https://www.npmjs.com/package/@bigear/microphone-recorder)
 
 ![nodei.co](https://nodei.co/npm/@bigear/bigear.png?downloads=true&downloadRank=true&stars=true)
 
@@ -18,21 +18,26 @@ $ npm install --save @bigear/microphone-recorder
 
 ```js
 
-import {Recorder} from "@bigear/microphone-recorder";
+import Recorder from "@bigear/microphone-recorder";
 
-const recorder = new Recorder(input);
-recorder && recorder.record();
 
-// speak for a bit
-recorder.stop();
-recorder.exportWAV("audio/wav", function(blob) {
-    // append the audio blob to html element
-    const url = URL.createObjectURL(AudioBLOB);
-    const au = document.querySelector("audio");
-    au.controls = true;
-    au.src = url;
-    recorder.clear();
-});
+navigator.mediaDevices.getUserMedia({ audio: true }).then((mediaStreamObject) => {
+    const input = audio_context.createMediaStreamSource(mediaStreamObject);
+
+    const recorder = new Recorder(input);
+    recorder.record();
+
+    // speak for a bit
+    recorder.stop();
+    recorder.exportWAV("audio/wav", function(blob) {
+        // append the audio blob to html element
+        const url = URL.createObjectURL(AudioBLOB);
+        const au = document.querySelector("audio");
+        au.controls = true;
+        au.src = url;
+        recorder.clear();
+    });
+})
 
 ```
 

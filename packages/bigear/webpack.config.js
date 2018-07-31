@@ -7,7 +7,8 @@ module.exports = {
   entry: ['./src/index.js'],
   target: 'node', // exclude modules like path, fs, etc.
   output: {
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd'
   },
   plugins: [
     new BundleAnalyzerPlugin({

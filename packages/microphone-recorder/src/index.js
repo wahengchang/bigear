@@ -1,2 +1,1 @@
-const Recorder = require('./Recorder')
-module.exports = {Recorder}
+module.exports = require('./Recorder')

@@ -1,11 +1,10 @@
 {
 	"workspaces": [
-	  "packages/*"
+		"packages/*"
 	],
 	"scripts": {
-	  "test": "lerna run test --use-workspaces",
-		"bootstrap": "lerna bootstrap",
 		"test": "lerna run test:ci",
+		"bootstrap": "lerna bootstrap",
 		"clean": "lerna clean",
 		"clean:build": "lerna exec -- rimraf lib",
 		"release": "lerna publish",
