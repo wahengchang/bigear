@@ -1,6 +1,6 @@
 {
   "name": "@bigear/microphone-recorder",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "It is a lib for sound recording on HTML, implemented by audioContext and webWorker",
   "main": "dist/main.js",
   "scripts": {
@@ -34,5 +34,5 @@
   "bugs": {
     "url": "https://github.com/wahengchang/bigear/issues"
   },
-  "homepage": "https://github.com/wahengchang/bigear#readme"
+  "homepage": "https://github.com/wahengchang/bigear/tree/master/packages/microphone-recorder"
 }
