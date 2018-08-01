@@ -1,6 +1,6 @@
 {
   "name": "@bigear/bigear",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "It is a browser base sound javascript lib, capable for react, vue or just javascript",
   "main": "src/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/wahengchang/bigear#readme",
   "dependencies": {
-    "@bigear/microphone-recorder": "^0.0.11"
+    "@bigear/microphone-recorder": "^0.0.12"
   },
   "devDependencies": {
     "webpack": "^4.16.3",
