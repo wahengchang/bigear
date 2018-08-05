@@ -1,6 +1,6 @@
 {
   "name": "convertbuffertowav",
-  "version": "1.0.0",
+  "version": "0.0.14",
   "description": "It is a helper converting audio buffer in to wav format",
   "main": "src/index.js",
   "scripts": {
