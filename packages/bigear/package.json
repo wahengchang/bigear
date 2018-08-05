@@ -1,6 +1,6 @@
 {
   "name": "@bigear/bigear",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "It is a browser base sound javascript lib, capable for react, vue or just javascript",
   "main": "src/index.js",
   "scripts": {

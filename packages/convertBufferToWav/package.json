@@ -1,6 +1,6 @@
 {
-  "name": "convertbuffertowav",
-  "version": "0.0.14",
+  "name": "@bigear/convertbuffertowav",
+  "version": "0.0.16",
   "description": "It is a helper converting audio buffer in to wav format",
   "main": "src/index.js",
   "scripts": {
