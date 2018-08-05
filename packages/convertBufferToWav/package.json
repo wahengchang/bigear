@@ -1,0 +1,25 @@
+{
+  "name": "convertbuffertowav",
+  "version": "1.0.0",
+  "description": "It is a helper converting audio buffer in to wav format",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wahengchang/bigear/tree/master/packages/converBufferToWav"
+  },
+  "keywords": [
+    "audio",
+    "buffer",
+    "convert",
+    "wav",
+    "blob",
+    "url",
+    "context",
+    "source"
+  ],
+  "author": "waheng",
+  "license": "ISC"
+}

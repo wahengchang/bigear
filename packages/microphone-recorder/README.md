@@ -14,6 +14,13 @@
 $ npm install --save @bigear/microphone-recorder
 ```
 
+## Demo
+
+Github: https://github.com/vue-exp-lab/vue-sound-streaming/blob/master/src/pages/MicAudioContext.vue
+
+ - [https://vue-sound-streaming.herokuapp.com/MicAudioContext](https://vue-sound-streaming.herokuapp.com/MicAudioContext)
+
+
 ## Usage
 
 ```js
